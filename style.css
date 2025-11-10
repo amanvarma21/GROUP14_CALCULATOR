@@ -1,0 +1,20 @@
+.display {
+    -fx-background-color: black;
+    -fx-text-fill: white;
+    -fx-font-size: 32px;
+    -fx-border-color: #444;
+    -fx-border-width: 0 0 2 0;
+}
+
+.calc-button {
+    -fx-pref-width: 70px;
+    -fx-pref-height: 70px;
+    -fx-font-size: 22px;
+    -fx-background-radius: 50%;
+    -fx-background-color: #333;
+    -fx-text-fill: white;
+}
+
+.calc-button:pressed {
+    -fx-background-color: #555;
+}
